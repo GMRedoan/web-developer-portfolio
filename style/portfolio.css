@@ -3,7 +3,7 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "weight" 100;
 }
 .secondary-bg{background-color: #FFF8F3;}
 .text-primary{color: #FD6E0A;}
@@ -31,7 +31,7 @@ color: #181818;}
 color: #757575;}
 /* about style */
 .about{border-radius: 10px;
-padding: 130px 150px; text-align: center; margin-top: 130px;}
+padding: 100px 140px; text-align: center; margin-top: 130px;}
 .about-items{display: flex; justify-content: space-around;}
 .item-description{font-weight: bold;}
 /* main styles */
