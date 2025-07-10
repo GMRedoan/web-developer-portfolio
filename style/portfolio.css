@@ -25,9 +25,10 @@ nav ul{display: flex; align-items: center;}
 .banner-pic{width:580px ;}
 /* header */
 .header{background-image:url(../images/developer.png), url(../images/header_bg.png); background-repeat: no-repeat; background-position: top left, bottom right;}
+ 
 
 /* title styles */
-.section-title{font-size: 35px;
+.section-title{font-size: 35px;margin-bottom: 113px;
 font-weight: bold;
 color: #181818;}
 .section-description{font-size: 18px;
@@ -52,8 +53,13 @@ main section{margin-top: 130px;}
 .experience-title{font-weight: bold; font-size: 25px;}
 .experience-sub-title{font-size: 20px; font-weight: bold; margin-bottom: 20px;}
 .column-title{font-weight: bold; font-size: 30px;}
-.section-title{text-align: center; margin-bottom: 113px;}
-.resume hr{margin: 30px 2px;}
-
-
+ .resume hr{margin: 30px 2px;}
 .download-cv{margin-top: 50px;}
+/* footer styles */
+footer{padding: 130px 230px; display:flex;gap: 100px;}
+.footer-column{width: 50%;}
+
+footer input[type="text"], footer input[type="email"], footer textarea {width: 460px; height: 45px; border-radius: 5px;background-color: white; display: block;padding: 18px 30px; font-size: 20px;margin-bottom: 24px;}
+footer textarea{width: 461px; height: 180px;}
+footer  .section-title{margin-bottom: 25px;}
+ 
