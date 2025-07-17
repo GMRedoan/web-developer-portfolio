@@ -208,6 +208,40 @@ footer  .section-title{
     padding: 0px;
    }
   }
+/* for tablet */
+@media screen and (min-width:576.1px)and (max-width:850px) {
+  .banner{
+    flex-direction: column;
+  }
+  .banner-pic{
+    width: 480px;
+  }
+  .banner-greetings{margin: 0px;
+  }
+  .nav-title{
+    font-size: 35px;
+  }
+  .banner-title{
+    margin-top: 0px;
+    font-size: 65px;
+  }
+  .section-title{
+    margin-bottom: 10px;
+  }
+  .skill-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .secondary-bg{
+    flex-direction: column;
+  }
+  .footer-column{
+    width: 100%;
+  }
+  nav ul{
+    margin-left: 130px;
+  }
+}
  
   
  
