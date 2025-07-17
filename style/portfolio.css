@@ -175,8 +175,28 @@ footer  .section-title{
   display: none;
 }
 @media screen and (max-width:576px) {
-  .skill-container, .resume-container, footer, .about-items{
+  .skill-container, 
+  .resume-container, 
+  footer, 
+  .about-items, 
+  .banner
+  {
     flex-direction: column;
+  }
+  nav{
+    flex-direction: column-reverse;
+  }
+  .banner{
+    margin: 20px;
+  }
+  .header{
+    background-image: none;
+  }
+  .btn-primary{
+    margin-bottom: 10px;
+  }
+  .banner-pic{
+    width:100%;
   }
   footer{
     padding:0px;
