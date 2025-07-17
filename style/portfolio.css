@@ -171,9 +171,6 @@ footer  .section-title{
   height: 40px;
 }
 /* media query section for small device */
-.hide{
-  display: none;
-}
 @media screen and (max-width:576px) {
   .skill-container, 
   .resume-container, 
@@ -187,7 +184,7 @@ footer  .section-title{
     flex-direction: column-reverse;
   }
   .banner{
-    margin: 20px;
+    margin:20px;
   }
   .header{
     background-image: none;
